@@ -2,6 +2,10 @@
 
 This is just a React application doing some fetching then showing the data from a public API. 
 
+## Available Node
+
+Use npm start to run the project normally. It will run on your http://localhost:3000
+
 ## Available Scripts
 
 In the project directory, you can run:
