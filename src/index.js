@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import Library from './Library'
+import LearningReact from './LearningReact'
 
 let bookList = [
   {"title": "Ayee", "author": "Alonso NInaya", "pages": 213},
@@ -11,8 +12,10 @@ let bookList = [
   {"title": "Testing", "author": "Enest Hemingway", "pages": 123},
   {"title": "Testing x2", "author": "Enest Hemingway", "pages": 214231360},
 ]
+
 render(
-  <Library books={bookList}/>,
+  // <Library books={bookList}/>,
+  <LearningReact />,
   document.getElementById('root')
 );
 
